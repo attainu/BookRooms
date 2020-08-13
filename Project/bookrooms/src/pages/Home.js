@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import Services from "../components/Services";
 import FeaturedRooms from "../components/Rooms/FeaturedRooms";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -15,8 +16,10 @@ const Home = () => {
           </Link>
         </Banner>
       </Hero>
-      <FeaturedRooms />
+
       <Services />
+      <FeaturedRooms />
+      <Footer />
     </>
   );
 };

@@ -19,28 +19,32 @@
 body {
   padding-top: 66px;
   color: var(--mainBlack);
-  background: var(--mainWhite);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #8b8b8b;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   line-height: 1.4;
 }
 h1 {
   font-size: 3em;
   line-height: 1;
   margin-bottom: 0.5em;
+  color: #fff;
 }
 h2 {
   font-size: 2em;
   margin-bottom: 0.75em;
+  color: #fff;
 }
 h3 {
   font-size: 1.5em;
   line-height: 1;
   margin-bottom: 1em;
+  color: #fff;
 }
 h4 {
   font-size: 1.2em;
   line-height: 1.25;
   margin-bottom: 1.25em;
+  color: #fff;
 }
 h5 {
   font-size: 1em;
@@ -94,7 +98,9 @@ h6 {
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: rgb(247, 243, 243);
+  background: rgb(37, 15, 15);
+  overflow: hidden;
+  transition: 0.4s;
   z-index: 1;
 }
 .nav-header {
@@ -121,7 +127,7 @@ h6 {
   display: block;
   text-decoration: none;
   padding: 1rem 0;
-  color: rgb(92, 95, 53);
+  color: #fff;
   transition: var(--mainTransition);
   text-align: center;
   font-size: 1rem;
@@ -230,7 +236,8 @@ h6 {
 
 /* services */
 .services {
-  padding: 2rem 0;
+  padding: 2.5rem 0;
+  color: #1f1f1d;
 }
 .services {
   background: gainsboro;
@@ -252,6 +259,9 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+}
+.services h4 {
+  color: #1f1f1d;
 }
 .services p {
   width: 80%;
@@ -280,8 +290,8 @@ h6 {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  grid-row-gap: 4rem;
-  grid-column-gap: 80px;
+  grid-row-gap: 2rem;
+  grid-column-gap: 70px;
 }
 @media screen and (min-width: 776px) {
   .featured-rooms-center {
@@ -339,7 +349,7 @@ h6 {
   transition: all 0.3s linear;
 }
 .img-container:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.664);
 }
 .img-container:hover img {
   opacity: 0.3;
@@ -351,7 +361,7 @@ h6 {
   transform: translate(-50%, -50%) scale(1);
 }
 .room-info {
-  background: var(--darkGrey);
+  background: rgb(187, 187, 187);
   text-transform: capitalize;
   padding: 0.5rem 0;
   text-align: center;
@@ -436,7 +446,8 @@ h6 {
 /* end of single room*/
 /* roomlist */
 .roomslist {
-  padding: 5rem 0;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
 }
 .roomslist-center {
   width: 80vw;
@@ -478,6 +489,7 @@ h6 {
   display: block;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 .form-control {
   width: 100%;
@@ -490,7 +502,7 @@ h6 {
 .size-input {
   width: 40%;
   padding: 0.2rem;
-  border: 1px solid var(--mainBlack);
+  border: 1px solid darkblue;
   border-radius: 0.3rem;
   margin-right: 0.3rem;
 }

@@ -79,6 +79,11 @@ export default class SingleRoom extends Component {
               <h6>{pets ? "pets allowed" : "no pets allowed"}</h6>
               <h6>{breakfast && "free breakfast included"}</h6>
             </article>
+            <article>
+            <Link to="/payment" className="btn-primary">
+            Book Now
+          </Link>
+            </article>
           </div>
         </section>
         <section className="room-extras">

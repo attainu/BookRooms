@@ -25,7 +25,7 @@ const RoomsFilter = ({ rooms }) => {
   // get unique types
   let types = getUnique(rooms, "type");
   // add all
-  types = ["all", ...types];
+  types = ["All", ...types];
   // map to jsx
   types = types.map((item, index) => (
     <option key={index} value={item}>
@@ -88,7 +88,7 @@ const RoomsFilter = ({ rooms }) => {
         {/* end of room price*/}
         {/* size */}
         <div className="form-group">
-          <label htmlFor="price">room size </label>
+          <label htmlFor="price">Room size </label>
           <div className="size-inputs">
             <input
               type="number"

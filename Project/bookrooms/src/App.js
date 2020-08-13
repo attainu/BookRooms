@@ -14,6 +14,8 @@ import SingleRoom from "./pages/SingleRoom";
 import ContactUs from "./pages/ContactUs";
 import Profile from "./pages/Profile";
 import Login from "./pages/Login";
+import Payment from "./pages/Payment"
+import Confirm from "./pages/Confirm"
 
 function App() {
   const [authLoading, setAuthLoading] = useState(true);
@@ -50,6 +52,9 @@ function App() {
         <Route exaxt path="/contactus" component={ContactUs} />
         <PrivateRoute path="/Profile" component={Profile} />
         <PublicRoute path="/login" component={Login} />
+        <Route exact path="/payment/" component={Payment}/>
+        <Route exact path="/confirm/" component={Confirm}/>
+
       </Switch>
     </BrowserRouter>
     </RoomProvider>

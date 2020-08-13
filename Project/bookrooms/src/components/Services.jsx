@@ -8,25 +8,26 @@ class Services extends Component {
         icon: <FaCocktail />,
         title: "Free Cocktails",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?",
-      },
-      {
-        icon: <FaCoffee />,
-        title: "Free Coffee",
-        info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?",
+          "A cocktail is an alcoholic mixed drink, which is either a combination of spirits, or one or more spirits mixed with other ingredients such as fruit juice, flavored syrup, or cream",
       },
       {
         icon: <FaHamburger />,
         title: "HamBurger",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?",
+          "A hamburger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun.",
       },
+      {
+        icon: <FaCoffee />,
+        title: "Free Coffee",
+        info:
+          "Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffee species.",
+      },
+
       {
         icon: <FaBeer />,
         title: "Beer",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?",
+          "Beer is one of the oldest and most widely consumed alcoholic drinks in the world, and the third most popular drink overall after water and tea.",
       },
     ],
   };

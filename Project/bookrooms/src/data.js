@@ -1,4 +1,4 @@
-import room1 from "./images/details-1.jpg";
+import room1 from "./images/details-1.jpeg";
 import room2 from "./images/details-2.jpeg";
 import room3 from "./images/details-3.jpeg";
 import room4 from "./images/details-4.jpeg";
@@ -39,7 +39,7 @@ export default [
     fields: {
       name: "single economy",
       slug: "single-economy",
-      type: "single",
+      type: "Single",
       price: 100,
       size: 200,
       capacity: 1,
@@ -97,7 +97,7 @@ export default [
     fields: {
       name: "single basic",
       slug: "single-basic",
-      type: "single",
+      type: "Single",
       price: 150,
       size: 250,
       capacity: 1,
@@ -155,7 +155,7 @@ export default [
     fields: {
       name: "single standard",
       slug: "single-standard",
-      type: "single",
+      type: "Single",
       price: 250,
       size: 300,
       capacity: 1,
@@ -213,7 +213,7 @@ export default [
     fields: {
       name: "single deluxe",
       slug: "single-deluxe",
-      type: "single",
+      type: "Single",
       price: 300,
       size: 400,
       capacity: 1,
@@ -271,7 +271,7 @@ export default [
     fields: {
       name: "double economy",
       slug: "double-economy",
-      type: "double",
+      type: "Double",
       price: 200,
       size: 300,
       capacity: 2,
@@ -329,7 +329,7 @@ export default [
     fields: {
       name: "double basic",
       slug: "double-basic",
-      type: "double",
+      type: "Double",
       price: 250,
       size: 350,
       capacity: 2,
@@ -387,7 +387,7 @@ export default [
     fields: {
       name: "double standard",
       slug: "double-standard",
-      type: "double",
+      type: "Double",
       price: 300,
       size: 400,
       capacity: 2,
@@ -445,7 +445,7 @@ export default [
     fields: {
       name: "double deluxe",
       slug: "double-deluxe",
-      type: "double",
+      type: "Double",
       price: 400,
       size: 500,
       capacity: 2,
@@ -503,7 +503,7 @@ export default [
     fields: {
       name: "triple economy",
       slug: "triple-economy",
-      type: "triple",
+      type: "Triple",
       price: 300,
       size: 300,
       capacity: 2,
@@ -561,7 +561,7 @@ export default [
     fields: {
       name: "triple Basic",
       slug: "triple-Basic",
-      type: "triple",
+      type: "Triple",
       price: 400,
       size: 300,
       capacity: 2,
@@ -619,7 +619,7 @@ export default [
     fields: {
       name: "triple standard",
       slug: "triple-standard",
-      type: "triple",
+      type: "Triple",
       price: 500,
       size: 400,
       capacity: 3,
@@ -677,7 +677,7 @@ export default [
     fields: {
       name: "triple deluxe",
       slug: "triple-deluxe",
-      type: "triple",
+      type: "Triple",
       price: 800,
       size: 400,
       capacity: 3,
@@ -735,7 +735,7 @@ export default [
     fields: {
       name: "family economy",
       slug: "family-economy",
-      type: "family",
+      type: "Family",
       price: 300,
       size: 500,
       capacity: 3,
@@ -793,7 +793,7 @@ export default [
     fields: {
       name: "family basic",
       slug: "family-basic",
-      type: "family",
+      type: "Family",
       price: 350,
       size: 550,
       capacity: 4,
@@ -851,7 +851,7 @@ export default [
     fields: {
       name: "family standard",
       slug: "family-standard",
-      type: "family",
+      type: "Ffamily",
       price: 400,
       size: 600,
       capacity: 5,
@@ -909,7 +909,7 @@ export default [
     fields: {
       name: "family deluxe",
       slug: "family-deluxe",
-      type: "family",
+      type: "Family",
       price: 500,
       size: 700,
       capacity: 6,
@@ -967,7 +967,7 @@ export default [
     fields: {
       name: "quad economy",
       slug: "quad-economy",
-      type: "quad",
+      type: "Quad",
       price: 300,
       size: 500,
       capacity: 3,
@@ -1025,7 +1025,7 @@ export default [
     fields: {
       name: "quad basic",
       slug: "quad-basic",
-      type: "quad",
+      type: "Quad",
       price: 350,
       size: 550,
       capacity: 4,
@@ -1083,7 +1083,7 @@ export default [
     fields: {
       name: "quad standard",
       slug: "quad-standard",
-      type: "quad",
+      type: "Quad",
       price: 400,
       size: 600,
       capacity: 5,
@@ -1141,7 +1141,7 @@ export default [
     fields: {
       name: "quad deluxe",
       slug: "quad-deluxe",
-      type: "quad",
+      type: "Quad",
       price: 500,
       size: 700,
       capacity: 6,
@@ -1199,7 +1199,7 @@ export default [
     fields: {
       name: "interconnected economy",
       slug: "interconnected-economy",
-      type: "interconnected",
+      type: "Interconnected",
       price: 300,
       size: 500,
       capacity: 3,
@@ -1257,13 +1257,13 @@ export default [
     fields: {
       name: "interconnected basic",
       slug: "interconnected-basic",
-      type: "interconnected",
+      type: "Interconnected",
       price: 350,
       size: 550,
       capacity: 4,
       dinner: false,
       lunch: false,
-      breakfast: true,
+      breakfast: false,
       featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
@@ -1315,7 +1315,7 @@ export default [
     fields: {
       name: "interconnected standard",
       slug: "interconnected-standard",
-      type: "interconnected",
+      type: "Interconnected",
       price: 400,
       size: 600,
       capacity: 5,
@@ -1373,7 +1373,7 @@ export default [
     fields: {
       name: "interconnected deluxe",
       slug: "interconnected-deluxe",
-      type: "interconnected",
+      type: "Interconnected",
       price: 500,
       size: 700,
       capacity: 6,
@@ -1431,7 +1431,7 @@ export default [
     fields: {
       name: "balcony economy",
       slug: "balcony-economy",
-      type: "balcony",
+      type: "Balcony",
       price: 300,
       size: 500,
       capacity: 3,
@@ -1489,7 +1489,7 @@ export default [
     fields: {
       name: "balcony basic",
       slug: "balcony-basic",
-      type: "balcony",
+      type: "Balcony",
       price: 350,
       size: 550,
       capacity: 4,
@@ -1547,7 +1547,7 @@ export default [
     fields: {
       name: "balcony standard",
       slug: "balcony-standard",
-      type: "balcony",
+      type: "Balcony",
       price: 400,
       size: 600,
       capacity: 5,
@@ -1605,7 +1605,7 @@ export default [
     fields: {
       name: "balcony deluxe",
       slug: "balcony-deluxe",
-      type: "balcony",
+      type: "Balcony",
       price: 500,
       size: 700,
       capacity: 6,
