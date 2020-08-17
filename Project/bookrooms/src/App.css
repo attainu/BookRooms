@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primaryColor: #ffbb00;
   --mainWhite: #fff;
@@ -61,10 +62,11 @@ h6 {
   display: inline-block;
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
-  color: blue;
-  background: yellow;
+  color: rgb(240, 240, 240);
+  background: #002540;
   padding: 0.4rem 0.9rem;
-  border: 3px solid yellowgreen;
+  border: 3px solid rgb(47, 0, 255);
+  border-radius: 5px;
   transition: var(--mainTransition);
   text-transform: uppercase;
   cursor: pointer;
@@ -72,7 +74,53 @@ h6 {
 .btn-primary:hover {
   background: transparent;
   color: var(--offWhite);
+  box-shadow: 0px 5px 40px -10px rgba(255, 254, 254, 0.57);
+  transition: all 0.3s ease 0s;
+  font-weight: 700 !important;
+  border-radius: 10px;
 }
+.btn-check {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: rgb(240, 240, 240);
+  background: #002540;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid rgb(47, 0, 255);
+  border-radius: 5px;
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-check:hover {
+  background: transparent;
+  color: darkslategray;
+  box-shadow: 0px 5px 40px -10px rgba(255, 254, 254, 0.57);
+  transition: all 0.3s ease 0s;
+  font-weight: 700 !important;
+  border-radius: 10px;
+}
+.btn-secondary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: rgb(0, 0, 0);
+  background: rgb(91, 156, 31);
+  padding: 0.4rem 0.9rem;
+  border: 3px solid yellowgreen;
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background: transparent;
+  color: var(--offWhite);
+  border-radius: 10px;
+  box-shadow: 0px 5px 40px -10px rgba(255, 254, 254, 0.57);
+  transition: all 0.3s ease 0s;
+  font-weight: 700 !important;
+}
+
 .loading {
   text-transform: capitalize;
   text-align: center;
@@ -98,7 +146,7 @@ h6 {
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: rgb(37, 15, 15);
+  background: rgb(53, 22, 22);
   overflow: hidden;
   transition: 0.4s;
   z-index: 1;
@@ -139,7 +187,7 @@ h6 {
 }
 
 .show-nav {
-  height: 150px;
+  height: 260px;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
@@ -172,7 +220,7 @@ h6 {
 }
 .roomsHero {
   background-image: url("./images/rooms.jpg");
-  min-height: 70vh;
+  min-height: 60vh;
 }
 /* End of Hero */
 /* Banner */
@@ -236,7 +284,7 @@ h6 {
 
 /* services */
 .services {
-  padding: 2.5rem 0;
+  padding: 1.8rem 0;
   color: #1f1f1d;
 }
 .services {
@@ -489,12 +537,13 @@ h6 {
   display: block;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 0.5rem;
-  color: #fff;
+  color: #f5f5f5;
 }
 .form-control {
   width: 100%;
-  background: transparent;
-  font-size: 1rem;
+  background: whitesmoke;
+  font-size: 0.9rem;
+  border-radius: 5px;
 }
 .size-inputs {
   display: flex;
@@ -502,7 +551,7 @@ h6 {
 .size-input {
   width: 40%;
   padding: 0.2rem;
-  border: 1px solid darkblue;
+  border: 1px solid transparent;
   border-radius: 0.3rem;
   margin-right: 0.3rem;
 }

@@ -9,7 +9,7 @@ export default class RoomProvider extends Component {
     sortedRooms: [],
     featuredRooms: [],
     loading: true,
-    type: "all",
+    type: "All",
     capacity: 1,
     price: 0,
     minPrice: 0,
@@ -84,7 +84,7 @@ export default class RoomProvider extends Component {
     const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
     console.log(name, value);
-
+    
     this.setState(
       {
         [name]: value,
@@ -112,7 +112,7 @@ export default class RoomProvider extends Component {
     capacity = parseInt(capacity);
     price = parseInt(price);
     // filter by type
-    if (type !== "all") {
+    if (type !== "All") {
       tempRooms = tempRooms.filter((room) => room.type === type);
     }
     // filter by capacity

@@ -1,5 +1,11 @@
 import React from "react";
 import "../styles/contact.css";
+import {
+  FaMapMarkerAlt,
+  FaMobileAlt,
+  FaEnvelope,
+  
+} from "react-icons/fa";
 const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -12,18 +18,20 @@ const ContactUs = () => {
             <h2>Contact Info</h2>
             <ul className="info">
               <li>
-                <span>
-                  2912 WhiteField
-                  <br />
-                  Bangalore <br />
+              
+                <p>
+                <FaMapMarkerAlt />  2912 WhiteField<br />
+                        Bangalore <br />
                   200042
-                </span>
+                </p>
               </li>
               <li>
-                <span>Bookrooms@gmail.com</span>
+              
+                <span><FaEnvelope /> Bookrooms@gmail.com</span>
               </li>
               <li>
-                <span>310-357-1334</span>
+              
+                <span> <FaMobileAlt /> 310-357-1334</span>
               </li>
             </ul>
             <ul className="sci"></ul>

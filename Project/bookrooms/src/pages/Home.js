@@ -16,9 +16,8 @@ const Home = () => {
           </Link>
         </Banner>
       </Hero>
-
-      <Services />
       <FeaturedRooms />
+      <Services />
       <Footer />
     </>
   );

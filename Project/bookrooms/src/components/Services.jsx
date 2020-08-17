@@ -20,9 +20,9 @@ class Services extends Component {
         icon: <FaCoffee />,
         title: "Free Coffee",
         info:
-          "Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffee species.",
+          "Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. ",
       },
-
+    
       {
         icon: <FaBeer />,
         title: "Beer",

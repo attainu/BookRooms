@@ -10,6 +10,7 @@ class NavBar extends Component {
   handleToggle = () => {
     this.setState({ isOpen: !this.state.isOpen });
   };
+
   render() {
     return (
       <nav className="navbar">
@@ -30,9 +31,7 @@ class NavBar extends Component {
             className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           >
             <li className="nav-item">
-              <Link exact activeclassname="active" to="/">
-                Home
-              </Link>
+              <Link to="/">Home</Link>
             </li>
             <li className="nav-item">
               <Link to="/rooms">Rooms</Link>
@@ -40,16 +39,13 @@ class NavBar extends Component {
             <li className="nav-item">
               <Link to="/contactus">Contact Us</Link>
             </li>
+            {/* <li className="nav-item">
+              <Link to="/profile/">Profile</Link>
+            </li> */}
             <li className="nav-item">
-              <Link activeclassname="active" to="/profile">
-                Profile
-              </Link>
+              <Link to="/login">Login</Link>
             </li>
-            <li className="nav-item">
-              <Link activeclassname="active" to="/login">
-                Login
-              </Link>
-            </li>
+            
           </ul>
         </div>
       </nav>

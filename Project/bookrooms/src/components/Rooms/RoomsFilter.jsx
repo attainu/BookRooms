@@ -57,6 +57,7 @@ const RoomsFilter = ({ rooms }) => {
           </select>
         </div>
         {/* end of select type */}
+
         {/* guests  */}
         <div className="form-group">
           <label htmlFor="capacity">Guests</label>
@@ -71,6 +72,7 @@ const RoomsFilter = ({ rooms }) => {
           </select>
         </div>
         {/* end of guests */}
+
         {/* room price */}
         <div className="form-group">
           <label htmlFor="price">room price ${price}</label>
@@ -86,9 +88,10 @@ const RoomsFilter = ({ rooms }) => {
           />
         </div>
         {/* end of room price*/}
+
         {/* size */}
         <div className="form-group">
-          <label htmlFor="price">Room size </label>
+          <label htmlFor="price">room size </label>
           <div className="size-inputs">
             <input
               type="number"
@@ -107,6 +110,7 @@ const RoomsFilter = ({ rooms }) => {
           </div>
         </div>
         {/* end of select type */}
+
         {/* extras */}
         <div className="form-group">
           <div className="single-extra">

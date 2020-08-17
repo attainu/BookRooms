@@ -851,7 +851,7 @@ export default [
     fields: {
       name: "family standard",
       slug: "family-standard",
-      type: "Ffamily",
+      type: "Family",
       price: 400,
       size: 600,
       capacity: 5,
@@ -1663,7 +1663,7 @@ export default [
     fields: {
       name: "Super Luxurious",
       slug: "Super Luxurious-room",
-      type: "Super Luxurious",
+      type: "Luxury",
       price: 600,
       size: 1000,
       capacity: 10,
