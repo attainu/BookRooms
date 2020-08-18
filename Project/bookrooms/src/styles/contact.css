@@ -1,15 +1,12 @@
-/* *{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-} */
 .section {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 90vh;
+  min-width: 90vw;
+  padding-left: 100px;
+  padding-right: 100px;
   background: #5d5c61;
 }
 
@@ -162,8 +159,14 @@
   border: none;
   max-width: 150px;
   padding: 12px;
-  
 }
 .section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
   background: #5d5c61;
+}
+
+@media screen and (min-width: 768px) {
+  .section .container {
+    display: block;
+    width: 100%;
+  }
 }

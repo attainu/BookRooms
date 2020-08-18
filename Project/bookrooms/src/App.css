@@ -131,13 +131,7 @@ h6 {
   text-transform: uppercase;
   margin: 2rem 0;
 }
-.empty-search {
-  text-align: center;
-  text-transform: capitalize;
-  margin: 2rem 0;
-  padding: 1rem;
-  letter-spacing: var(--mainSpacing);
-}
+
 /* end of globals */
 /* Navbar */
 .navbar {
@@ -160,6 +154,7 @@ h6 {
   border: none;
   cursor: pointer;
   outline: none;
+  margin-top: auto;
 }
 .nav-icon {
   font-size: 1.5rem;
@@ -171,6 +166,9 @@ h6 {
   transition: var(--mainTransition);
   list-style-type: none;
 }
+/* .nav-links li{
+  float: right;
+} */
 .nav-links a {
   display: block;
   text-decoration: none;
@@ -187,7 +185,7 @@ h6 {
 }
 
 .show-nav {
-  height: 260px;
+  height: 200px;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
@@ -572,3 +570,5 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+
+

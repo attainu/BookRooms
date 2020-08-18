@@ -1,15 +1,11 @@
 import React from "react";
 import "../styles/contact.css";
-import {
-  FaMapMarkerAlt,
-  FaMobileAlt,
-  FaEnvelope,
-  
-} from "react-icons/fa";
+import { FaMapMarkerAlt, FaMobileAlt, FaEnvelope } from "react-icons/fa";
 const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
+
   return (
     <div className="section">
       <div className="container">
@@ -18,20 +14,23 @@ const ContactUs = () => {
             <h2>Contact Info</h2>
             <ul className="info">
               <li>
-              
                 <p>
-                <FaMapMarkerAlt />  2912 WhiteField<br />
-                        Bangalore <br />
+                  <FaMapMarkerAlt /> 2912 WhiteField
+                  <br />
+                  Bangalore <br />
                   200042
                 </p>
               </li>
               <li>
-              
-                <span><FaEnvelope /> Bookrooms@gmail.com</span>
+                <span>
+                  <FaEnvelope /> Bookrooms@gmail.com
+                </span>
               </li>
               <li>
-              
-                <span> <FaMobileAlt /> 310-357-1334</span>
+                <span>
+                  {" "}
+                  <FaMobileAlt /> 310-357-1334
+                </span>
               </li>
             </ul>
             <ul className="sci"></ul>
@@ -39,7 +38,7 @@ const ContactUs = () => {
         </div>
         <div className="contactForm">
           <h2>Send a message</h2>
-          <div className="formBox">
+          <form className="formBox">
             <div class="inputBox w50">
               <input type="text" name="" required />
               <span>First Name</span>
@@ -49,11 +48,11 @@ const ContactUs = () => {
               <span>Last Name</span>
             </div>
             <div class="inputBox w50">
-              <input type="text" name="" required />
+              <input type="email" name="" required />
               <span>Email Address</span>
             </div>
             <div class="inputBox w50">
-              <input type="text" name="" required />
+              <input type="tel" name="" required />
               <span>Mobile Number</span>
             </div>
             <div class="inputBox w100">
@@ -63,7 +62,7 @@ const ContactUs = () => {
             <div class="inputBox w100">
               <input type="submit" value="Send" onSubmit={handleSubmit} />
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
