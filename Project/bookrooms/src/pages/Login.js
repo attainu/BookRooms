@@ -13,7 +13,11 @@ class Login extends Component {
   state = { isSignedIn: false };
   uiConfig = {
     signInFlow: "popup",
-    signInOptions: [firebase.auth.GoogleAuthProvider.PROVIDER_ID],
+    signInOptions: [
+      firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+      firebase.auth.GithubAuthProvider.PROVIDER_ID,
+      firebase.auth.EmailAuthProvider.PROVIDER_ID,
+    ],
     callbacks: {
       signInSuccess: () => false,
     },

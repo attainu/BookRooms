@@ -109,8 +109,8 @@ const Payment = () => {
                 </div>
               </div>
               <label>
-                <input type="checkbox"  name="sameadr" />{" "}
-                Accept terms and conditions
+                <input type="checkbox" name="sameadr" /> Accept terms and
+                conditions
               </label>
               <Link to="/confirm" className="btn-check">
                 Proceed to checkout
